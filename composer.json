@@ -1,0 +1,40 @@
+{
+  "name": "matteooreficeit/game-of-life",
+  "description": "PHP Terminal implementation of Game Of Life",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-mbstring": "*",
+    "ext-xml": "*",
+    "symfony/var-dumper": "^4.2",
+    "illuminate/events": "v5.4.*",
+    "illuminate/support": "v5.4.*",
+    "nunomaduro/termwind": "^1.15"
+  },
+  "authors": [
+    {
+      "name": "Matteo Orefice",
+      "email": "orefice.matteo@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MatteoOreficeIt\\GameOfLife\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ],
+    "classmap": [
+    ]
+  },
+  "scripts": {
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/MatteoOreficeIT/reactphp-child-process-messenger.git"
+    }
+  ],
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
