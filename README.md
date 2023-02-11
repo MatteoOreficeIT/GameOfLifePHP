@@ -1,6 +1,6 @@
 PHP Terminal implementation of Game Of Life
 
-![alt text](https://github.com/MatteoOreficeIT/GameOfLife/blob/main/gol.png?raw=true)
+![alt text](https://github.com/MatteoOreficeIT/GameOfLifePHP/blob/main/gol.png?raw=true)
 
 # Requirements
 
