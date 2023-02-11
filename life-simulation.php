@@ -71,7 +71,7 @@
     }
 
     $u = Universe::creation(
-        [terminal()->width()-10,terminal()->height()-4],
+        [terminal()->width()-2,terminal()->height()-4],
         ...Coordinates::diehard(terminal()->width()/2,terminal()->height()/2)
     );
 
